@@ -1,0 +1,4 @@
+#!/bin/bash
+docker build -t your-image-name .
+docker run -d -p 80:80 your-image-name
+
